@@ -1,0 +1,194 @@
+:root{--ink:#183b32;--deep:#15372e;--muted:#5c6d62;--paper:#f8f8f3;--white:#fffefa;--line:#d9dfd6;--sage:#e9eddf;--accent:#687e53;--lime:#d4e3b7;--font:Arial,Helvetica,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:108px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:16px;-webkit-font-smoothing:antialiased}h1,h2,h3,p{margin:0}h1,h2,h3{font-weight:400}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}button{cursor:pointer}button,a{-webkit-tap-highlight-color:transparent}svg{display:block}::selection{background:var(--lime);color:var(--ink)}:focus-visible{outline:3px solid #7a905b;outline-offset:5px}[hidden]{display:none!important}.wrap{width:min(1256px,calc(100% - 112px));margin-inline:auto}.skip{position:fixed;left:20px;top:-100px;z-index:100;background:var(--lime);padding:16px}.skip:focus{top:8px}.review-bar{background:var(--deep);color:#e2ebd8;padding:7px 20px;text-align:center;font-size:10px;letter-spacing:.2px;line-height:1.4}.review-bar strong{font-size:9px;letter-spacing:1.2px;font-weight:500;margin-right:12px}.header{position:sticky;top:0;z-index:20;background:rgba(248,248,243,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}.nav{height:86px;display:flex;align-items:center;justify-content:space-between;gap:30px}.brand{display:inline-flex;align-items:center;gap:12px;font-size:29px;font-weight:800;letter-spacing:-1.5px;white-space:nowrap}.brand-mark{width:29px;height:29px}.brand-two{color:#698347}.nav-links{display:flex;align-items:center;gap:34px;margin-left:auto;margin-right:12px}.nav-links a{font-size:13px}.nav-links a:hover{color:var(--accent)}.button{min-height:48px;display:inline-flex;align-items:center;justify-content:space-between;gap:32px;background:var(--ink);color:var(--white);padding:14px 22px;border:1px solid var(--ink);border-radius:2px;font-size:13px;font-weight:500;transition:background .18s,color .18s}.button:hover{background:#2b5143}.button span[aria-hidden]{font-size:19px;line-height:1}.section-kicker{font-size:10px;font-weight:600;letter-spacing:1.8px;line-height:1.6;color:var(--accent)}.text-link{display:inline-flex;align-items:center;gap:32px;font-size:13px;border-bottom:1px solid #95a58c;padding-block:7px 9px;line-height:1.5}.text-link:hover{color:var(--accent)}.text-link span{font-size:20px;line-height:1}
+.hero{padding:64px 0 45px}.hero .section-kicker{display:flex;align-items:center;gap:11px;margin-bottom:27px}.hero .section-kicker:before{content:"";height:6px;width:6px;background:var(--accent);border-radius:50%}.hero-layout{display:grid;grid-template-columns:1.55fr 1fr;gap:76px;align-items:end}.hero h1{font-size:clamp(52px,5.3vw,78px);letter-spacing:-3.8px;line-height:1.065}.hero h1 span{color:var(--accent)}.hero-copy{padding-bottom:2px}.hero-copy p{font-size:17px;line-height:1.75;color:#45594e;max-width:430px;margin-bottom:23px}.pronunciation{margin-top:35px;font-size:12px;color:#677660;line-height:1.7}.pronunciation strong{font-weight:500;color:var(--ink)}.focus-band{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#f0f2e9}.focus-inner{display:grid;grid-template-columns:repeat(4,1fr);padding:19px 0;gap:20px}.focus-inner span{font-size:11px;line-height:1.7;letter-spacing:.2px;color:#50664f}.focus-inner span:before{content:"+";font-size:15px;color:#7f9466;margin-right:10px}
+.leadership{padding:66px 0 0}.leadership-heading{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:17px;margin-bottom:35px}.leadership-heading>p:last-child{font-size:11px;color:var(--muted)}.ceo-layout{display:grid;grid-template-columns:1fr 1.15fr;gap:67px;align-items:stretch}.ceo-profile{padding-top:16px;padding-bottom:10px}.ceo-role{font-size:11px;color:var(--accent);letter-spacing:1.2px;text-transform:uppercase;margin-bottom:16px}.ceo-profile h2{font-size:60px;line-height:1.06;letter-spacing:-2.6px;max-width:390px}.ceo-intro{font-size:18px;line-height:1.55;margin:23px 0 21px;max-width:450px}.ceo-bio{font-size:14px;line-height:1.9;color:var(--muted);max-width:480px}.credentials{border-top:1px solid var(--line);padding-top:18px;margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:#5d7350;line-height:1.7}.credentials span+span:before{content:"·";margin-right:12px;color:#7a8a6a}.ceo-profile .background-link{margin-top:17px}.background-link{display:inline-flex;align-items:center;gap:20px;font-size:11px;line-height:1.7;color:#526b41;border-bottom:1px solid #a6b49a;padding-bottom:3px}.background-link:hover{color:var(--ink)}
+.ceo-message{background:var(--deep);color:var(--white);padding:37px 42px 34px;display:flex;flex-direction:column;position:relative}.message-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:29px}.message-top .section-kicker{color:#d1dfbc;font-size:9px;letter-spacing:1.3px}.ceo-quote{font-size:37px;line-height:1.24;letter-spacing:-1.15px;font-weight:400;margin:0}.ceo-quote em{font-style:normal;color:#c9dda8}.ceo-message>p{margin-top:25px;font-size:13px;line-height:1.85;color:#c3d1ba}.message-signature{margin-top:auto;padding-top:27px;display:flex;justify-content:space-between;align-items:end;gap:20px}.signature-name{font-size:15px;line-height:1.7}.signature-name span{display:block;font-size:10px;color:#b9cbb1}.signature-word{font-size:10px;letter-spacing:1.6px;color:#c6d9ad;line-height:1.7;text-align:right}.geography{display:flex;gap:31px;align-items:baseline;border-bottom:1px solid var(--line);padding:26px 0 27px;margin-top:8px}.geography>span:first-child{font-size:9px;letter-spacing:1.3px;color:var(--accent);white-space:nowrap}.geography>span:last-child{font-size:12px;color:#5d6f5b;line-height:1.9}
+.network{padding:34px 0 42px;display:grid;grid-template-columns:.76fr 1.55fr;gap:72px;border-bottom:1px solid var(--line)}.network-title h2{font-size:29px;letter-spacing:-1px;line-height:1.2;margin-top:13px}.network-content>p{font-size:14px;line-height:1.85;color:var(--muted);max-width:760px}.expertise-line{display:flex;flex-wrap:wrap;gap:9px 22px;margin-top:19px;font-size:11px;line-height:1.8;color:#536e49}.expertise-line>span{position:relative}.expertise-line>span:before{content:"+";margin-right:7px;color:#869c6b}summary::-webkit-details-marker{display:none}summary::marker{content:""}
+.purpose{padding:46px 0 49px;display:grid;grid-template-columns:1fr 1.12fr;gap:100px;align-items:center}.purpose .section-kicker{margin-bottom:15px}.purpose h2{font-size:37px;line-height:1.15;letter-spacing:-1.5px}.purpose-copy{font-size:13px;line-height:1.9;color:#62705b}.purpose-copy p+p{margin-top:11px}.purpose-copy strong{font-weight:500;color:var(--ink)}
+.contact-section{background:var(--deep);color:#f0f3e9}.contact{display:grid;grid-template-columns:1fr 1.1fr;gap:110px;padding:54px 0 52px}.contact .section-kicker{color:#cad8b7;margin-bottom:20px}.contact h2{font-size:46px;line-height:1.12;letter-spacing:-1.9px;margin-bottom:21px}.contact h2 span{color:#c8daa7}.contact-copy>p{font-size:13px;line-height:1.85;color:#bdcdb7;max-width:400px}.contact-location{font-size:11px!important;color:#b6c7ab!important;border-top:1px solid #486346;margin-top:24px;padding-top:17px;max-width:355px!important;line-height:1.8}.contact-form{padding-top:4px}.fields-row{display:grid;grid-template-columns:1fr 1fr;gap:23px}.field{margin-bottom:18px;min-width:0}.field label{font-size:11px;display:block;margin-bottom:8px;line-height:1.5;color:#d4dfc9}.field input,.field textarea{width:100%;padding:11px 1px;border:0;border-bottom:1px solid #718463;background:transparent;border-radius:0;color:#f4f6ed;font-size:14px;line-height:1.6;appearance:none}.field input{height:44px}.field textarea{resize:vertical;min-height:95px}.field input::placeholder,.field textarea::placeholder{color:#acbda0;opacity:1;font-size:12px}.field input:focus,.field textarea:focus{border-bottom-color:#dee7c8}.form-note{font-size:10px;line-height:1.8;max-width:275px;color:#bdcbb0}.contact-submit{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:16px}.contact-submit .button{background:#dce8c4;color:#1c402f;border-color:#dce8c4;white-space:nowrap;gap:27px;min-height:49px;font-size:12px}.contact-submit .button:hover{background:#ecf1df}.contact-form fieldset{border:0;padding:0;margin:0;min-inline-size:0}.contact-result{border:1px solid #7b8c6a;padding:19px;margin-top:23px}.contact-result>p{font-size:12px;line-height:1.8;color:#dde6d0}.contact-result>label{display:block;margin:15px 0 8px;font-size:11px;color:#e3edd7}.contact-result textarea{width:100%;min-height:150px;background:#204637;color:#f3f5e9;border:1px solid #6c8459;padding:12px;resize:vertical;font-size:12px;line-height:1.7}.copy-row{display:flex;align-items:center;gap:18px;margin-top:12px;flex-wrap:wrap}.copy-button{border:1px solid #aabf90;background:transparent;color:#e5efd9;padding:10px 14px;font-size:11px}.copy-button:hover{background:#35583e}.copy-row span{font-size:11px;color:#d2dfc0;line-height:1.6}.noscript-note{margin-top:15px;color:#d4dfc5;font-size:12px;line-height:1.7}
+.footer{padding:28px 0 23px}.footer-top{display:flex;align-items:center;gap:30px;margin-bottom:23px}.footer-top .brand{font-size:25px;gap:10px}.footer-top .brand-mark{width:24px;height:24px}.footer-tagline{font-size:11px;color:#738366;margin-left:26px}.footer-top>a:last-child{margin-left:auto;font-size:10px}.footer-bottom{display:flex;justify-content:space-between;gap:40px;border-top:1px solid var(--line);padding-top:18px;color:#738366;font-size:9px;line-height:1.9}.footer-bottom>span{white-space:nowrap}.footer-bottom>p{max-width:760px}
+@media(min-width:1650px){.wrap{width:1330px}.hero h1{font-size:82px}.ceo-quote{font-size:40px}}
+@media(max-width:1100px){.wrap{width:calc(100% - 72px)}.hero-layout{gap:40px;grid-template-columns:1.35fr 1fr}.hero h1{font-size:62px;letter-spacing:-3px}.hero-copy p{font-size:15px}.ceo-layout{gap:42px;grid-template-columns:1fr 1.15fr}.ceo-profile h2{font-size:52px}.ceo-intro{font-size:16px}.ceo-bio{font-size:13px}.ceo-message{padding:31px}.ceo-quote{font-size:32px}.message-top{display:block;margin-bottom:23px}.ceo-message>p{font-size:12px}.network{gap:48px;grid-template-columns:.9fr 1.55fr}.purpose{gap:60px}.contact{gap:60px}.contact-submit{flex-direction:column;align-items:flex-start;gap:14px}.form-note{max-width:none}.contact h2{font-size:42px}}
+@media(max-width:820px){html{scroll-padding-top:90px}.wrap{width:calc(100% - 48px)}.nav{height:76px;gap:20px}.nav-links{gap:19px;margin-right:0}.nav-links a{font-size:12px}.brand{font-size:26px}.brand-mark{width:27px;height:27px}.nav>.button{padding:12px 16px;gap:20px;font-size:12px;min-height:43px}.hero{padding:43px 0 33px}.hero-layout{grid-template-columns:1fr;gap:24px}.hero h1{font-size:62px;letter-spacing:-2.9px}.hero-copy{display:flex;gap:35px;align-items:center}.hero-copy p{font-size:15px;max-width:440px;margin-bottom:0}.hero-copy .text-link{white-space:nowrap}.hero .section-kicker{margin-bottom:22px;font-size:9px}.pronunciation{margin-top:27px;font-size:11px}.focus-inner{grid-template-columns:repeat(2,1fr);gap:8px 20px;padding-block:15px}.focus-inner span{font-size:10px}.leadership{padding-top:42px}.leadership-heading{margin-bottom:25px}.ceo-layout{gap:28px;grid-template-columns:1fr 1.08fr}.ceo-profile{padding-top:8px}.ceo-profile h2{font-size:43px;letter-spacing:-1.8px}.ceo-intro{font-size:15px;line-height:1.6;margin:19px 0 16px}.ceo-bio{font-size:12px;line-height:1.85}.ceo-role{font-size:10px}.credentials{font-size:10px;gap:8px;margin-top:19px;padding-top:16px}.credentials span+span:before{margin-right:8px}.ceo-message{padding:27px 24px}.ceo-quote{font-size:29px;line-height:1.3;letter-spacing:-.7px}.ceo-message>p{font-size:11px;line-height:1.9;margin-top:21px}.signature-word{display:none}.signature-name{font-size:14px}.message-signature{padding-top:23px}.geography{display:block;padding:21px 0}.geography>span{display:block}.geography>span:last-child{font-size:11px;margin-top:9px}.network{gap:36px;grid-template-columns:.85fr 1.4fr;padding:29px 0 33px}.network-title h2{font-size:26px}.network-content>p{font-size:12px}.expertise-line{font-size:10px;gap:7px 15px}.purpose{gap:40px;padding:37px 0;grid-template-columns:1fr 1.1fr}.purpose h2{font-size:31px;letter-spacing:-1px}.purpose-copy{font-size:12px}.contact{gap:40px;padding-block:43px;grid-template-columns:.9fr 1.1fr}.contact h2{font-size:37px;letter-spacing:-1.3px}.contact-copy>p{font-size:12px}.fields-row{grid-template-columns:1fr;gap:0}.footer-tagline{margin-left:0;font-size:10px}.footer-top{gap:22px}.footer-bottom{gap:25px}}
+@media(max-width:580px){html{scroll-padding-top:83px}.wrap{width:calc(100% - 40px)}.review-bar{font-size:9px;line-height:1.5;padding:6px 10px}.review-bar strong{font-size:8px;letter-spacing:1px;margin-right:8px}.review-extra{display:none}.nav{height:69px;gap:15px}.brand{font-size:24px;letter-spacing:-1.2px;gap:8px}.brand-mark{width:24px;height:24px}.nav-links{display:none}.nav>.button{font-size:11px;gap:19px;min-height:39px;padding:10px 13px}.hero{padding:34px 0 29px}.hero .section-kicker{font-size:8px;letter-spacing:1.35px;margin-bottom:24px}.hero h1{font-size:clamp(37px,10.6vw,57px);line-height:1.08;letter-spacing:-2px}.hero-layout{gap:24px}.hero-copy{display:block}.hero-copy p{font-size:14px;line-height:1.8;margin-bottom:16px;max-width:none}.hero-copy .text-link{font-size:12px}.pronunciation{margin-top:22px;font-size:10px}.focus-inner{padding-block:13px;gap:8px}.focus-inner span{font-size:9px;line-height:1.6}.focus-inner span:before{font-size:12px;margin-right:5px}.leadership{padding-top:31px}.leadership-heading{padding-bottom:14px;margin-bottom:23px}.leadership-heading .section-kicker{font-size:9px;letter-spacing:1.3px}.leadership-heading>p:last-child{font-size:9px}.ceo-layout{display:block}.ceo-profile{padding-top:0;padding-bottom:0}.ceo-role{font-size:9px;margin-bottom:14px}.ceo-profile h2{font-size:50px;line-height:1.05;letter-spacing:-2.3px;max-width:none}.ceo-intro{font-size:16px;line-height:1.6;margin-top:18px}.ceo-bio{font-size:13px;line-height:1.85}.credentials{font-size:10px;margin-top:19px;padding-top:15px}.ceo-profile .background-link{font-size:10px;margin-top:15px}.ceo-message{margin-top:27px;padding:27px 25px}.message-top{display:flex;align-items:center;gap:12px;margin-bottom:24px}.message-top .section-kicker{font-size:8px;letter-spacing:1px}.ceo-quote{font-size:31px;line-height:1.29;letter-spacing:-.8px}.ceo-message>p{font-size:12px;line-height:1.85;margin-top:22px}.message-signature{padding-top:23px}.signature-word{display:block;font-size:8px}.signature-name{font-size:14px}.signature-name span{font-size:9px}.geography{margin-top:3px;padding:20px 0}.geography>span:first-child{font-size:8px;letter-spacing:1.1px}.geography>span:last-child{font-size:10px;line-height:1.9;margin-top:7px}.network{display:block;padding:27px 0 29px}.network-title .section-kicker{font-size:9px}.network-title h2{font-size:29px;letter-spacing:-1px;line-height:1.15;margin-top:12px}.network-title h2 br{display:none}.network-content{margin-top:17px}.network-content>p{font-size:12px;line-height:1.85}.expertise-line{font-size:10px;margin-top:15px;gap:7px 17px}.purpose{display:block;padding:31px 0 34px}.purpose .section-kicker{font-size:9px;margin-bottom:14px}.purpose h2{font-size:34px;line-height:1.14;letter-spacing:-1.2px;margin-bottom:21px}.purpose-copy{font-size:12px;line-height:1.85}.contact{display:block;padding:34px 0}.contact .section-kicker{font-size:9px;margin-bottom:17px}.contact h2{font-size:40px;letter-spacing:-1.6px;margin-bottom:19px}.contact-copy>p{font-size:13px;max-width:none}.contact-location{font-size:10px!important;margin-top:22px;padding-top:16px;max-width:none!important}.contact-form{margin-top:28px}.field{margin-bottom:17px}.field label{font-size:11px}.field input,.field textarea{font-size:16px}.field input::placeholder,.field textarea::placeholder{font-size:12px}.contact-submit{gap:17px}.contact-submit .button{width:100%}.form-note{font-size:10px}.footer{padding:25px 0 20px}.footer-top{display:grid;grid-template-columns:1fr auto;gap:16px;margin-bottom:20px}.footer-top .brand{font-size:24px}.footer-tagline{grid-row:2;grid-column:1 / -1;font-size:10px}.footer-top>a:last-child{font-size:10px}.footer-bottom{display:block;font-size:9px;padding-top:16px}.footer-bottom p{margin-top:9px}}
+@media(max-width:360px){.wrap{width:calc(100% - 32px)}.nav>.button{gap:13px;padding:10px 11px}.brand{font-size:22px;gap:7px}.brand-mark{width:22px;height:22px}.review-bar{font-size:8px}.ceo-profile h2{font-size:45px}.message-top{display:block}.ceo-quote{font-size:28px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+@media print{.header{position:static}.nav{height:60px}.nav-links,.nav>.button,.contact-form{display:none}.wrap{width:100%}.review-bar{background:white;color:black}.hero,.leadership,.purpose,.contact{padding-block:24px}.hero h1{font-size:44px}.ceo-profile h2{font-size:40px}.ceo-message{background:#e9eddf;color:#183b32;print-color-adjust:exact}.ceo-message p,.ceo-message span,.ceo-message em{color:#183b32!important}.ceo-quote{font-size:25px}.ceo-layout{gap:30px}.network{padding-block:22px}.contact-section{background:#e9eddf;color:var(--ink);print-color-adjust:exact}.contact-copy p,.contact h2 span{color:var(--ink)!important}.footer{break-inside:avoid}.ceo-layout{break-inside:avoid}}
+
+/* Project-development layout */
+.hero-layout{grid-template-columns:1.2fr 1fr;gap:90px;align-items:center}
+.hero h1{font-size:clamp(58px,6.1vw,88px);line-height:1.06;letter-spacing:-3.8px}
+.hero-copy p{max-width:470px;font-size:17px;line-height:1.8}
+.focus-inner{grid-template-columns:1fr 1fr auto;gap:30px}
+.focus-inner .focus-path{color:#637359;font-size:10px;text-align:right}
+.focus-inner .focus-path:before{content:none}
+.ceo-responsibility{font-size:13px;line-height:1.8;color:var(--ink);margin-top:14px;max-width:480px}
+.development{padding:44px 0 0;border-bottom:1px solid var(--line)}
+.development-heading{display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:end;margin-bottom:30px}
+.development-heading h2{font-size:34px;letter-spacing:-1.2px;line-height:1.15;margin-top:12px}
+.development-heading>p{font-size:14px;line-height:1.85;color:var(--muted);max-width:530px;padding-bottom:3px}
+.development-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;padding:25px 0 30px;border-top:1px solid var(--line)}
+.development-grid article+article{border-left:1px solid var(--line);padding-left:30px}
+.step-label{font-size:9px;letter-spacing:1.4px;color:var(--accent);font-weight:600;margin-bottom:15px}
+.development-grid h3{font-size:20px;line-height:1.35;letter-spacing:-.5px;margin-bottom:11px}
+.development-grid article>p:last-child{font-size:13px;line-height:1.85;color:var(--muted);max-width:350px}
+.delivery-network{background:#eef1e7;display:grid;grid-template-columns:.9fr 1.6fr;gap:55px;padding:25px 30px;margin-bottom:36px;align-items:center;border-left:3px solid #8ca16e}
+.delivery-network h3{font-size:23px;letter-spacing:-.7px;line-height:1.25}
+.delivery-network p{font-size:13px;line-height:1.8;color:#52634f}
+@media(min-width:1650px){.hero h1{font-size:94px}}
+@media(max-width:1100px){.hero-layout{gap:55px}.hero h1{font-size:70px}.hero-copy p{font-size:15px}.development-heading{gap:45px}.development-grid{gap:22px}.development-grid article+article{padding-left:22px}.delivery-network{gap:30px}.development-grid h3{font-size:18px}}
+@media(max-width:820px){.hero-layout{grid-template-columns:1fr;gap:28px}.hero h1{font-size:70px}.hero-copy p{max-width:520px}.focus-inner{grid-template-columns:1fr 1fr;gap:8px 24px}.focus-inner .focus-path{grid-column:1/-1;text-align:left;font-size:10px}.development{padding-top:34px}.development-heading{gap:32px}.development-heading h2{font-size:30px}.development-heading>p{font-size:13px}.development-grid{gap:20px}.development-grid article+article{padding-left:20px}.development-grid h3{font-size:17px}.development-grid article>p:last-child{font-size:12px}.delivery-network{grid-template-columns:1fr 1.6fr;gap:25px;padding:22px}.delivery-network h3{font-size:21px}.delivery-network p{font-size:12px}.ceo-responsibility{font-size:12px}}
+@media(max-width:580px){.hero h1{font-size:clamp(45px,12.5vw,66px);letter-spacing:-2.2px}.hero-layout{gap:23px}.hero-copy p{font-size:14px}.hero .section-kicker{font-size:7.8px;letter-spacing:1.1px}.focus-inner span{font-size:10px}.focus-inner .focus-path{font-size:9px}.leadership-heading{align-items:flex-start;gap:12px}.leadership-heading>p:last-child{max-width:150px;text-align:right;line-height:1.6}.ceo-responsibility{font-size:12px;margin-top:13px}.ceo-message{padding:27px 25px}.ceo-quote{font-size:30px}.development{padding-top:29px}.development-heading{display:block;margin-bottom:22px}.development-heading h2{font-size:31px}.development-heading>p{font-size:13px;margin-top:18px}.development-grid{display:block;padding:0;border-top:1px solid var(--line)}.development-grid article{padding:21px 0}.development-grid article+article{padding:21px 0;border-left:0;border-top:1px solid var(--line)}.step-label{font-size:9px;margin-bottom:10px}.development-grid h3{font-size:20px;margin-bottom:9px}.development-grid article>p:last-child{font-size:12px;max-width:none}.delivery-network{display:block;padding:22px 20px;margin-top:4px;margin-bottom:30px}.delivery-network h3{font-size:23px;margin-bottom:15px}.delivery-network p{font-size:12px}.purpose{padding-top:29px}.footer-bottom{font-size:9px}}
+@media print{.development{padding-top:24px}.development-grid{break-inside:avoid}.delivery-network{break-inside:avoid}.hero h1{font-size:50px}}
+
+/* CEO profile supplied by Langtry Meyer, 23 November 2026. */
+.leadership{padding-top:50px}
+.leadership-heading{margin-bottom:26px}
+.ceo-layout{display:grid;grid-template-columns:350px minmax(0,1fr);grid-template-areas:"portrait profile" "portrait biography";grid-template-rows:auto 1fr;gap:20px 40px;align-items:start}
+.ceo-profile{grid-area:profile;padding:0}
+.ceo-profile h2{font-size:54px;line-height:1.08;letter-spacing:-2.3px;max-width:none}
+.ceo-role{font-size:12px;line-height:1.6;letter-spacing:1.3px;margin-bottom:13px}
+.ceo-intro{font-size:20px;line-height:1.55;max-width:700px;margin:18px 0 0}
+.ceo-portrait{grid-area:portrait;margin:0;background:#c5cbd9;overflow:hidden;width:100%;max-width:350px}
+.ceo-portrait img{display:block;width:100%;height:auto;aspect-ratio:1365/2048;object-fit:contain}
+.ceo-biography{grid-area:biography;min-width:0}
+.ceo-bio{font-size:16px;line-height:1.8;color:var(--muted);max-width:none}
+.ceo-bio+.ceo-bio{margin-top:18px}
+.ceo-bio.ceo-responsibility{font-size:16px;line-height:1.8;color:var(--ink);max-width:none}
+.credentials{display:block;font-size:12px;line-height:1.9;letter-spacing:.1px;margin-top:22px;padding-top:16px}
+.ceo-biography .background-link{font-size:12px;margin-top:12px}
+.ceo-message{display:grid;grid-template-columns:230px minmax(0,1fr);grid-template-areas:"label quote" "signature detail";gap:24px 42px;padding:36px 40px;margin-top:32px}
+.message-top{grid-area:label;display:block;margin:5px 0 0}
+.message-top .section-kicker{font-size:10px;letter-spacing:1.5px;line-height:1.7}
+.ceo-quote{grid-area:quote;font-size:36px;line-height:1.3;letter-spacing:-1px}
+.ceo-message>.message-detail{grid-area:detail;font-size:14px;line-height:1.85;margin:0;max-width:730px}
+.message-signature{grid-area:signature;display:flex;flex-direction:column;align-items:flex-start;gap:18px;margin:0;padding:0}
+.signature-name{font-size:16px;line-height:1.6}
+.signature-name span{font-size:11px;margin-top:3px}
+.signature-word{display:block;font-size:9px;text-align:left;letter-spacing:1.4px;line-height:1.7}
+.geography{margin-top:8px}
+@media(max-width:1100px){
+ .ceo-layout{grid-template-columns:300px minmax(0,1fr);column-gap:32px}
+ .ceo-profile h2{font-size:48px;letter-spacing:-2px}
+ .ceo-intro{font-size:19px}
+ .ceo-message{grid-template-columns:180px minmax(0,1fr);gap:22px 30px;padding:32px}
+ .ceo-quote{font-size:33px}
+}
+/* At medium widths, fill the space beside the portrait with the introduction
+   and first biography paragraph, then use the full width for the remaining copy. */
+@media(min-width:701px) and (max-width:960px){
+ .ceo-layout{grid-template-columns:clamp(220px,28vw,250px) minmax(0,1fr);grid-template-areas:"portrait profile" "portrait lead" "career career" "responsibility responsibility" "credentials credentials" "background background";grid-template-rows:auto 1fr auto auto auto auto;gap:18px 30px}
+ .ceo-profile h2{font-size:43px;letter-spacing:-1.8px}
+ .ceo-role{font-size:11px;margin-bottom:11px}
+ .ceo-intro{font-size:18px;margin-top:16px}
+ .ceo-biography{display:contents}
+ .ceo-biography>.ceo-bio:nth-of-type(1){grid-area:lead}
+ .ceo-biography>.ceo-bio:nth-of-type(2){grid-area:career}
+ .ceo-biography>.ceo-bio:nth-of-type(3){grid-area:responsibility}
+ .ceo-biography>.ceo-bio{margin:0}
+ .ceo-biography>.credentials{grid-area:credentials;margin:0;padding-top:15px}
+ .ceo-biography>.background-link{grid-area:background;justify-self:start;margin:0}
+ .ceo-message{grid-template-columns:1fr;grid-template-areas:"label" "quote" "detail" "signature";gap:22px;margin-top:28px}
+ .message-top{margin:0}
+ .message-signature{flex-direction:row;justify-content:space-between;align-items:flex-end;padding-top:2px}
+ .signature-word{text-align:right}
+}
+/* On smaller screens the portrait sits beside the name and title. */
+@media(max-width:700px){
+ .leadership{padding-top:32px}
+ .leadership-heading{margin-bottom:22px;align-items:flex-start;gap:12px}
+ .leadership-heading>p:last-child{max-width:180px;text-align:right;line-height:1.6}
+ .ceo-layout{grid-template-columns:clamp(104px,22vw,150px) minmax(0,1fr);grid-template-areas:"portrait role" "portrait name" "intro intro" "biography biography";grid-template-rows:auto auto auto auto;gap:0 22px}
+ .ceo-profile{display:contents}
+ .ceo-role{grid-area:role;align-self:end;font-size:11px;letter-spacing:.9px;margin:0 0 9px;line-height:1.6}
+ .ceo-profile h2{grid-area:name;font-size:42px;line-height:1.08;letter-spacing:-1.8px;max-width:none;margin:0}
+ .ceo-intro{grid-area:intro;font-size:18px;line-height:1.6;margin:20px 0 0;max-width:none}
+ .ceo-portrait{width:100%;max-width:none}
+ .ceo-biography{display:block;grid-area:biography;margin-top:20px;min-width:0}
+ .ceo-bio,.ceo-bio.ceo-responsibility{font-size:16px;line-height:1.8}
+ .ceo-bio+.ceo-bio{margin-top:17px}
+ .credentials{font-size:12px;margin-top:20px;padding-top:15px}
+ .ceo-biography .background-link{font-size:12px;margin-top:11px}
+ .ceo-message{display:grid;grid-template-columns:1fr;grid-template-areas:"label" "quote" "detail" "signature";padding:27px 25px;margin-top:26px;gap:22px}
+ .message-top{margin:0}
+ .message-top .section-kicker{font-size:9px;letter-spacing:1.2px}
+ .ceo-quote{font-size:30px;line-height:1.3;letter-spacing:-.8px}
+ .ceo-message>.message-detail{font-size:14px;line-height:1.85}
+ .message-signature{flex-direction:row;justify-content:space-between;align-items:flex-end;gap:16px;padding-top:2px}
+ .signature-name{font-size:15px}
+ .signature-name span{font-size:10px}
+ .signature-word{text-align:right;font-size:8px;letter-spacing:1px}
+}
+@media(max-width:420px){
+ .ceo-layout{column-gap:18px}
+ .ceo-profile h2{font-size:37px;letter-spacing:-1.5px}
+ .ceo-role{font-size:10px;letter-spacing:.7px}
+}
+@media(max-width:360px){
+ .ceo-layout{grid-template-columns:96px minmax(0,1fr);column-gap:16px}
+ .ceo-profile h2{font-size:34px}
+ .ceo-message{padding:25px 21px}
+ .ceo-quote{font-size:28px}
+ .message-signature{gap:12px}
+ .signature-word{font-size:7px}
+}
+@media print{
+ .ceo-layout{grid-template-columns:230px 1fr;grid-template-areas:"portrait profile" "portrait biography";grid-template-rows:auto 1fr;gap:18px 28px;break-inside:auto}
+ .ceo-portrait{width:100%;max-width:none}
+ .ceo-profile{display:block;grid-area:profile}
+ .ceo-profile h2{font-size:36px}
+ .ceo-intro{font-size:16px}
+ .ceo-biography{display:block;grid-area:biography;margin-top:0}
+ .ceo-bio,.ceo-bio.ceo-responsibility{font-size:12px;line-height:1.6}
+ .ceo-message{display:block;padding:25px;margin-top:24px;break-inside:avoid}
+ .message-top{margin-bottom:18px}
+ .ceo-quote{font-size:25px}
+ .ceo-message>.message-detail{font-size:12px;margin-top:18px}
+ .message-signature{flex-direction:row;margin-top:18px}
+}
+/* Sector examples: illustrative, not a project portfolio. */
+.sector-focus{border-top:1px solid var(--line);padding:22px 0 28px;margin-bottom:6px}
+.sector-focus>.section-kicker{margin-bottom:17px}
+.sector-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;list-style:none;margin:0;padding:0}
+.sector-grid li{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:11px;padding:15px 6px;min-height:104px;background:#eef1e7;color:var(--ink);font-size:12px;line-height:1.4;font-weight:500}
+.sector-grid svg{width:35px;height:35px;color:#637a50;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}
+@media(max-width:820px){.sector-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.sector-grid li{min-height:98px}}
+@media(max-width:420px){.sector-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.sector-grid li{font-size:11px}}
+@media print{.sector-focus{break-inside:avoid}}
+
+/* Partner ecosystem: one coordinated execution network. */
+.ecosystem{padding:28px 0 0}
+.ecosystem-panel{background:#eef1e7;border-left:3px solid #8ca16e;padding:30px 32px 28px}
+.ecosystem-heading{display:grid;grid-template-columns:1.05fr 1fr;gap:42px;align-items:center}
+.ecosystem-heading .section-kicker{margin-bottom:13px}
+.ecosystem-heading h2{font-size:34px;line-height:1.17;letter-spacing:-1.2px}
+.ecosystem-heading>p{font-size:15px;line-height:1.8;color:#52634f}
+.ecosystem-heading strong{font-weight:500;color:var(--ink)}
+.ecosystem-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;list-style:none;margin:25px 0 0;padding:23px 0 0;border-top:1px solid #d1d9c8}
+.ecosystem-grid li{min-width:0}
+.ecosystem-grid svg{width:32px;height:32px;fill:none;stroke:#637a50;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;margin-bottom:12px}
+.ecosystem-grid h3{font-size:17px;line-height:1.4;font-weight:500;letter-spacing:-.25px;margin-bottom:7px}
+.ecosystem-grid p{font-size:14px;line-height:1.65;color:#596b53}
+@media(max-width:1100px){.ecosystem-panel{padding:27px}.ecosystem-heading{gap:30px}.ecosystem-heading h2{font-size:30px}.ecosystem-heading>p{font-size:14px}.ecosystem-grid{gap:20px}.ecosystem-grid h3{font-size:16px}.ecosystem-grid p{font-size:13px}}
+@media(max-width:820px){.ecosystem{padding-top:24px}.ecosystem-heading{grid-template-columns:1fr;gap:18px}.ecosystem-heading h2{font-size:32px}.ecosystem-heading>p{max-width:720px;font-size:15px}.ecosystem-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 28px;margin-top:22px;padding-top:22px}.ecosystem-grid h3{font-size:17px}.ecosystem-grid p{font-size:14px}}
+@media(max-width:580px){.ecosystem{padding-top:21px}.ecosystem-panel{padding:25px 21px 24px}.ecosystem-heading .section-kicker{font-size:9px;letter-spacing:1.3px;margin-bottom:13px}.ecosystem-heading h2{font-size:29px;letter-spacing:-1px;line-height:1.2}.ecosystem-heading{gap:18px}.ecosystem-heading>p{font-size:15px;line-height:1.8}.ecosystem-grid{gap:23px 18px}.ecosystem-grid svg{width:29px;height:29px;margin-bottom:10px}.ecosystem-grid h3{font-size:15px;line-height:1.4;margin-bottom:6px}.ecosystem-grid p{font-size:13px;line-height:1.6}}
+@media print{.ecosystem{padding-top:20px}.ecosystem-panel{padding:23px;print-color-adjust:exact}.ecosystem-heading{grid-template-columns:1fr 1fr;gap:25px}.ecosystem-heading h2{font-size:26px}.ecosystem-heading>p{font-size:12px}.ecosystem-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;break-inside:avoid}.ecosystem-grid h3{font-size:13px}.ecosystem-grid p{font-size:11px}}
+
+/* Stronger sector focus */
+.focus-band{background:#183b32;border-color:#2e5144}
+.focus-inner{align-items:center;padding-block:24px;gap:28px}
+.focus-inner span{color:#fffefa;font-size:16px;font-weight:600;line-height:1.5;letter-spacing:.05px}
+.focus-inner span:before{color:#c9dda8;font-size:19px;font-weight:400;margin-right:10px}
+.focus-inner .focus-path{color:#d5e2cf;font-size:14px;font-weight:400;line-height:1.6}
+@media(max-width:1000px){.focus-inner{grid-template-columns:1fr 1fr;gap:10px 24px}.focus-inner .focus-path{grid-column:1/-1;text-align:left}}
+@media(max-width:580px){.focus-inner{grid-template-columns:1fr;gap:11px;padding-block:20px}.focus-inner span{font-size:16px}.focus-inner .focus-path{font-size:14px}.focus-inner span:before{font-size:19px;margin-right:10px}}
+@media print{.focus-band{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+/* Readable expanded partner descriptions on mobile */
+@media(max-width:580px){.ecosystem-grid{grid-template-columns:1fr;gap:23px}.ecosystem-grid li{display:grid;grid-template-columns:32px minmax(0,1fr);column-gap:15px;align-items:start}.ecosystem-grid svg{grid-row:1 / span 2;margin:2px 0 0}.ecosystem-grid h3{grid-column:2;font-size:16px;line-height:1.4;margin:0 0 7px}.ecosystem-grid p{grid-column:2;font-size:14px;line-height:1.7}}
+
+/* Power scope includes geothermal */
+.sector-grid li{justify-content:flex-start}
+.sector-grid .sector-detail{display:block;max-width:170px;margin-top:-4px;color:#52684c;font-size:12px;line-height:1.5;font-weight:400}
+
+.contact-email{display:inline-block;margin-top:14px;color:#f0f3e9;font-size:16px;font-weight:600;text-decoration:underline;text-underline-offset:5px}.contact-email:hover{color:#dce8c4}.noscript-note a{text-decoration:underline}@media print{.contact-email{color:#183b32}}
